@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>About Us Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- links -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+        <!-- scripts -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="functions.js"></script>
+    </head>
+    <body id="example">
+        <div class="header">
+            <img src="images/logo.png">
+            <ul id="menu">
+                <li class="menu-item active"><a class='menu-link' href="#">ABOUT US</a></li>
+                <li class="menu-item"><a class='menu-link' href="#">HOW WE WORK</a></li>
+                <li class="menu-item"><a class='menu-link' href="#">WHAT WE DO</a></li>
+                <li class="menu-item"><a class='menu-link' href="#">BLOG</a></li>
+                <li class="menu-item"><a class='menu-link' href="#">JOBS</a></li>
+                <li class="menu-item"><a class='menu-link' href="#">CONTACT</a></li>
+            </ul>
+        </div>
+        <div id="myCarousel" class="carousel slide">
+            <!-- Slides wrapper -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="images/robots.png" alt="Outsourcing">
+                    <div class="carousel-caption">
+                        <h3 class="title">[Outsourcing]</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at arcu turpis. Phasellus euismod erat dui, vel euismod ligula fermentum vitae. Proin tempus finibus nisi, eu rhoncus enim efficitur a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean quis ultrices est. Sed hendrerit rhoncus sem a ultrices. Proin ultricies semper elit. Vivamus dignissim eros in sapien vehicula congue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean sed consequat tortor.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="images/robots.png" alt="Based">
+                    <div class="carousel-caption">
+                        <h3 class="title">[Based]</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at arcu turpis. Phasellus euismod erat dui, vel euismod ligula fermentum vitae. Proin tempus finibus nisi, eu rhoncus enim efficitur a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean quis ultrices est. Sed hendrerit rhoncus sem a ultrices. Proin ultricies semper elit. Vivamus dignissim eros in sapien vehicula congue.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="images/robots.png" alt="Face to face">
+                    <div class="carousel-caption">
+                        <h3 class="title">[Face to face project management in Benelux from Brussels]</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at arcu turpis. Phasellus euismod erat dui, vel euismod ligula fermentum vitae. Proin tempus finibus nisi, eu rhoncus enim efficitur a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean quis ultrices est. Sed hendrerit rhoncus sem a ultrices. Proin ultricies semper elit. Vivamus dignissim eros in sapien vehicula congue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean sed consequat tortor</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon icon-prev" aria-hidden="true"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon icon-next" aria-hidden="true"></span>
+            </a>
+            <!-- Indicators -->
+            <ul class="indicators">
+                <li class="indicator active-slide" data-slide-to="0">OUTSOURCING <div class="bullet"></div></li>
+                <li class="indicator" data-slide-to="1">BASED <div class="bullet"></div></li>
+                <li class="indicator" data-slide-to="2">FACE TO FACE <div class="bullet"></div></li>
+            </ul>
+            <!-- Contact -->
+            <div class="contact">Like what we do? <a href="mailto:#">Contact us!</a></div>
+        </div>
+    </body>
+</html>
